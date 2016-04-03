@@ -1,0 +1,13 @@
+e_id,first_name,last_name,street_number,street_name,city,e_phone,worked_from,worked_till,Manager_e_id
+1919,John,Smith,21,"Park Lane",Denver,7206161812,01.01.2015,21.09.2016,-
+2121,Ashley,Stewart,19,"Clievland Place",Boston,7201888787,05.01.2015,21.09.2016,1919
+1313,Drake,McQuivey,17,"Lincoln Str.",Chicago,3031883456,01.01.2015,15.05.2106,1919
+1415,Sasha,Fierce,34,"Washington Str.","New York",7201234567,01.01.2015,17.05.2016,1919
+2123,Lucy,McCartney,2,"Santa Monica",Paris,3033554545,01.08.2015,20.02.2017,2123
+3454,Brandon,Kyler,32,"Eagle Drive",Broadway,9010200324,01.01.2015,21.09.2016,1919
+1232,Kris,Kennedy,345,Mantaganismesto,Boston,5896471258,01.02.2015,31.04.2017,1919
+5463,Drew,Barimor,123,"Ocean City","New Orleans",6945218631,10.01.2015,17.05.2016,2123
+5478,Mason,Lockwood,344,"Estes Park",Washington,6748521593,21.11.2015,21.09.2016,1919
+2548,Jean,Greay,989,"Michigan Str.","Mystic Falls",2456286213,11.05.2015,21.09.2016,2123
+3242,Marcel,Revan,250,"Dawn Str.",Berlin,2469512482,31.02.2015,29.08.2016,5478
+5125,John,Malak,14,"Messa Ln.","Las Vegas",7896541336,28.09.2015,11.02.2016,5478

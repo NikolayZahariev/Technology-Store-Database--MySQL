@@ -1,0 +1,15 @@
+i_id,i_name,i_price($),qty_left,Warehouse_w_num,Brand_b_name,Maintanance_Employee_e_id
+8001,"Sony Gear 2",300,10,7001,Sony,2123
+8002,"Samsung Smartwatch 3",250,15,7003,Samsung,3242
+8003,"Pebble Time",450,5,7007,Apple,2123
+8004,"Asus ZenPhone",400,7,7002,Asus,5125
+8005,"Apple S6",900,9,7002,Apple,3242
+8006,"Philips WJ720",500,10,7001,Philips,5125
+8007,"Lenovo Z50",760,35,7005,Lenovo,2123
+8008,"HP 620",465,20,7006,HP,2123
+8009,"Acer Aspire",520,17,7007,Acer,3242
+8010,"LG J4",480,22,7010,LG,5125
+8011,"Gorenje Z740",500,0,7008,Gorenje,5125
+8012,"Sony Mosaic",120,10,7004,Sony,5125
+8013,"LG BlackLight",50,5,7009,LG,5125
+8014,"Asus Pro5",320,2,7004,Asus,5125

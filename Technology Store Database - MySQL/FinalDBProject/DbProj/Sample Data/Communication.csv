@@ -1,0 +1,4 @@
+i_id,com_type,OS,Portable/stationary,Weight(g),Camera(MP),Storage(GB)
+8004,Smartphone,Android,Portable,192,8,32
+8011,Tablet,Tizen,Portable,220,16,64
+8013,"Stationary Phone",None,Stationary,500,0,0

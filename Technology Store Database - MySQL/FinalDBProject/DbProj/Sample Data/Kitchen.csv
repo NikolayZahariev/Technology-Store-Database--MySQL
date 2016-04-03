@@ -1,0 +1,4 @@
+i_id,k_category,voltage,width(cm),height(cm),Self-cleaning?
+8002,Oven,240,100,70,Yes
+8005,Fridge,120,120,220,No
+8009,Toaster,120,50,20,No

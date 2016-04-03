@@ -1,0 +1,11 @@
+Item_i_id,Supplier_s_id,p_date,p_quantity,total_cost($)
+8001,"AKM Semiconductor Inc.",16/01/2015,20,1100
+8002,"AAC Technologies Holdings Inc.",27/02/2015,70,2150
+8003,"Asahi Glass Co Ltd.",06/05/2015,60,380
+8004,"Alps Electric Co. Ltd.",03/06/2015,45,450
+8005,"Asia Vital Components Ltd.",12/06/2015,80,900
+8006,"Alps Electric Co. Ltd.",26/06/2015,100,1400
+8007,"3M Co",23/07/2015,65,845
+8008,"Amphenol Corp",07/09/2015,78,950
+8009,"Artesyn Embedded Technologies",26/06/2015,52,560
+8010,"3M Co",03/06/2015,39,760

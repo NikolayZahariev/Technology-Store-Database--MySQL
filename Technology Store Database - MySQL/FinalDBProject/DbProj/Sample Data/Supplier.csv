@@ -1,0 +1,11 @@
+s_id,s_name,s_location,s_phone,quality_of_products,s_email,years_active
+6002,"AKM Semiconductor Inc.",Japan,8112926364,Excelent,akm@gmail.com,10
+6003,"Alps Electric Co. Ltd.",Bulgaria,8224552334,Good,alps@gmail.com,5
+6004,"3M Co",USA,8110152448,Bad,3m@gmail.com,7
+6005,"AAC Technologies Holdings Inc.",France,8117847086,Good,aac@gmail.com,3
+6006,"Acbel Polytech Inc.",Germany,8557890547,Excelent,acbel@gmail.com,5
+6007,"Amphenol Corp",Japan,8228893382,Excelent,amphenol@gmail.com,2
+6008,"Analog Devices Inc.",USA,8998473875,Good,analog@gmail.com,1
+6009,"Artesyn Embedded Technologies",China,8333099736,Mediocre,artesyn@gmail.com,7
+6010,"Asahi Glass Co Ltd.",China,8996687540,Excelent,asahi@gmail.com,8
+6001,"Asia Vital Components Ltd.",Bulgaria,855,Good,vital@gmail.com,15

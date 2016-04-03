@@ -1,0 +1,11 @@
+w_num,w_name,w_location,w_size,number_of_employees,manager_first_name,manager_last_name
+7001,South,"12 Brunel's Way, Highbridge, Somerset",50,5,Elizabeth,Higgins
+7002,East,"35 Howgate Rd, Bembridge, Isle of Wight",50,12,Warren,Roberson
+7003,North,"2 Highfield Cl, Featherstone, Pontefract, West Yorkshire",100,20,Melvin,Dawson
+7004,West,"Blackpool Ln, Preston, Lancashire",100,15,Roy,Medina
+7005,North-West,"22 Sydling Cl, Poole, Poole",150,17,Nicole,Webb
+7006,North-East,"Mount Pleasant Ln, Llanrumney, Cardiff",120,20,Orvile,Leonard
+7007,South-East,"5 Holly Rd, Uttoxeter, Staffordshire",60,3,Kristina,Spencer
+7008,South-West,"1 Rectory Rd, Penarth, Vale of Glamorgan",20,5,Christine,Holt
+7009,First,"11 Grange Rd, Folkestone, Kent ",40,4,Lance,Kennedy
+7010,Second,"5 Milburn St, Workington, Cumbria",45,5,Joel,Dennis

@@ -1,0 +1,4 @@
+i_id,au_type,decibel,Khz,Resistance(ohms)
+8006,Headphones,75,20,25
+8012,Microphone,80,15,30
+8010,Buffer,200,50,70

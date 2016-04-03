@@ -1,0 +1,69 @@
+SELECT 	Leader, COUNT(*)
+FROM  Products INNER JOIN `programmer_product`
+WHERE	`programmer_product`.`Hours` > 30
+GROUP BY Leader
+
+
+Leader, COUNT(*)
+
+GROUP BY Leader
+
+WHERE	`programmer_product`.`Hours` > 30
+
+
+
+SELECT *	
+FROM  Products INNER JOIN `programmer_product` USING (Prd_Id)
+WHERE	`programmer_product`.`Hours` > 30
+
+SELECT 	P.*
+FROM 	Projects P	WHERE 	EXISTS
+(	SELECT	*
+	FROM       Project_Product INNER JOIN Product USING Prd_Id
+	WHERE	Project_Product.Prj_Id = P.Prj_Id AND
+		Product.Leader = 
+		(	SELECT 	Prg_Id 
+			FROM 	Programmer 
+			WHERE 	Name = ‘Ivan’) 
+
+
+
+
+WHERE	programmer_product.Task LIKE 'F_0%')
+(SELECT	P.*
+FROM programmers P INNER JOIN Programmer_Product USING (Prg_Id))
+UNION
+(SELECT	P.*
+FROM programmers P INNER JOIN Project_Programmer USING (Prg_Id));
+
+(SELECT  Programmers
+FROM    Programmers INNER JOIN Programmer_Product J USING (Prg_Id)
+WHERE	`programmer_product`.Task LIKE 'F_0%')
+	UNION
+(SELECT	 Programmers
+FROM    Programmers INNER JOIN Project_Programmer USING (Prg_Id));
+
+
+
+Select programmers.Speciality, (project_programmer.Price * project_programmer.Hours) as Income
+From programmers INNER JOIN project_programmer USING (Prg_Id)
+WHERE prj_id IN
+	(SELECT prj_id
+    From project_product
+    Where project_product.Licence = 'Maintenance')
+Group by programmers.Speciality
+
+
+
+SELECT products.*
+FROM products
+Where Prd_Id IN (
+
+SELECT TEMPORARY.prd_id
+FROM (SELECT Prd_id,Licence,Count(*) as countcolumn
+From project_product
+Group BY `Prj_Id`) as TEMPORARY
+WHERE TEMPORARY.countcolumn >= 2 OR TEMPORARY.licence = 'rent')
+
+
+

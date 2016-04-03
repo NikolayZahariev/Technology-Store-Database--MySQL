@@ -1,0 +1,57 @@
+SELECT first_name
+FROM employee
+INNER JOIN maintanance
+ON maintanance.Employee_e_id = employee.e_id
+WHERE maintanance.num_repairs > 10
+
+//Selects the name of all maintenance employees with more than 10 
+
+
+
+SELECT customer.first_name, Customer.c_email
+FROM customer
+WHERE customer.C_id IN 
+		(SELECT `order`.Customer_c_id
+		FROM `order`
+		WHERE `order`.payment_method = 'cash'
+			AND `order`.o_num IN
+				(SELECT Order_has_item.Order_o_num
+				FROM Order_has_item
+				WHERE quantity > 4))
+
+//list the name of custmers who bought more than 4 items with cash. 
+
+
+
+most popular brand
+
+
+
+SELECT Sum(DIcount)
+FROM `item`
+Group BY `Brand_b_name`brand with most discount
+
+
+
+SELECT `i_name`
+FROM `item` 
+WHERE `i_id` IN
+	(
+		SELECT `Item_i_id` 
+        FROM `order_has_item`)
+
+
+
+
+
+
+SELECT ( - ) FROM `employee
+
+
+
+
+
+SELECT  (Employee.first_name + " " + Employee.last_name) As Name, DATEDIFF (`worked_till`,`worked_from`) AS DaysWorked
+FROM Employee 
+WHERE DaysWorked > 365
+

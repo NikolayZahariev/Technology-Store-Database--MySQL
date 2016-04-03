@@ -1,0 +1,4 @@
+i_id,width,height,color,number_of_channels,HD/SD
+8003,200,200,Black,200,HD
+8008,120,100,White,120,SD
+8014,150,120,Gray,150,HD

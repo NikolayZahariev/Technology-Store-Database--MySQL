@@ -1,0 +1,4 @@
+Employee_e_id,num_repairs,speciality,average_time_per_repair(hours)
+2123,5,"IT, TV Products",2
+3242,10,"Kitchen Products",5
+5125,12,"Accessories, Communication, Audio Products",1
